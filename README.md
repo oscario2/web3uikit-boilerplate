@@ -2,11 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+The `moralis` package uses browserify to transpile `parse-server` to the browser. Since webpack v5 they've removed polyfilling node modules so you have to rewire it yourself
+
+v5 will render lots of source-map warnings which is address here https://github.com/facebook/create-react-app/pull/11752
+
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `yarn start`
+### `yarn craco:start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
