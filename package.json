@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "craco": "GENERATE_SOURCEMAP=false craco start",
+    "craco:start": "GENERATE_SOURCEMAP=false craco start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
